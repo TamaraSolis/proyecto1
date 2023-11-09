@@ -1,0 +1,24 @@
+library ieee;
+use ieee. std_logic_1164.all;
+use ieee. std_logic_arith.all;
+use ieee. std_logic_unsigned.all;
+
+entity FFJK is
+	port(J,K,clock: in std_logic;
+	Q, Qn: out std_logic);
+end FFJK;
+
+architecture behavioral of FFJK is
+	signal s1: std_logic;
+	signal s2: std_logic;
+	begin
+	process(clock)
+	begin 
+	if(rising_edge(clock)) then
+		s1 <= J and Qn
+		s2 <= (not K) and Q
+		Q <= s1 or s2;
+		Qn <= not Q;
+	end if;
+	end process;
+end behavioral;

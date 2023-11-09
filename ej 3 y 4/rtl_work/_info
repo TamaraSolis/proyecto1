@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Tamara\Desktop\Tami\facultad\TyDD2\FPGA\ej 3 y 4
+Erestador
+Z1 w1699318726
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\Tamara\Desktop\Tami\facultad\TyDD2\FPGA\ej 3 y 4
+Z7 8C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/ej 3 y 4/restador.vhd
+Z8 FC:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/ej 3 y 4/restador.vhd
+l0
+L6
+V;cl^=3]he3jKbXUUUBbGW2
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1699323351.810000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/ej 3 y 4/restador.vhd|
+Z12 !s107 C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/ej 3 y 4/restador.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 <V81bC10m`bj6Gd7QcXYj2
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 8 restador 0 22 ;cl^=3]he3jKbXUUUBbGW2
+l13
+L12
+V3JkMLUYO:J^0:6:Y`lG_W1
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 <ao[HPSU4PUCfRF<Q<h`A2
+!i10b 1
+Etb_restador
+Z15 w1699321009
+R2
+R3
+R4
+R5
+R6
+Z16 8C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/ej 3 y 4/tb_restador.vhd
+Z17 FC:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/ej 3 y 4/tb_restador.vhd
+l0
+L6
+Vf[<Cn568g>ZnGH3j9]N4:2
+!s100 jYGY95nM0JUVE?FCXcldH3
+R9
+31
+!i10b 1
+Z18 !s108 1699323352.393000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/ej 3 y 4/tb_restador.vhd|
+Z20 !s107 C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/ej 3 y 4/tb_restador.vhd|
+R13
+R14
+Abehacior
+R2
+R3
+R4
+R5
+DEx4 work 11 tb_restador 0 22 f[<Cn568g>ZnGH3j9]N4:2
+l23
+L8
+VFORi@K_>ePNGBPGC>4:HB2
+!s100 FW6OHG[KijS59U>DiYYhC3
+R9
+31
+!i10b 1
+R18
+R19
+R20
+R13
+R14

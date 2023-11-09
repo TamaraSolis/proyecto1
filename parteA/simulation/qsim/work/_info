@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Tamara\Desktop\Tami\facultad\TyDD2\FPGA\parteA\simulation\qsim
+vnegador
+Z1 I:<AHPoZJ9R97hjz37bloT1
+Z2 VF>f<Ri`^2Qd?@UhoJj]TB0
+Z3 dC:\Users\Tamara\Desktop\Tami\facultad\TyDD2\FPGA\parteA\simulation\qsim
+Z4 w1699398723
+Z5 8combinacional.vo
+Z6 Fcombinacional.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|combinacional.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 F`eiO>iN>BA6z[Oa[DLAD1
+!s85 0
+Z11 !s108 1699398725.099000
+Z12 !s107 combinacional.vo|
+!s101 -O0
+vnegador_vlg_check_tst
+!i10b 1
+Z13 !s100 NMn2fgaiGKcD3hTj1eC>b3
+Z14 I25]9lhB^Db2I5YVbBmD[12
+Z15 VBi_]cbIX_:UXI><iSaZE81
+R3
+Z16 w1699398722
+Z17 8combinacional.vt
+Z18 Fcombinacional.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z19 !s108 1699398725.896000
+Z20 !s107 combinacional.vt|
+Z21 !s90 -work|work|combinacional.vt|
+!s101 -O0
+R9
+vnegador_vlg_sample_tst
+!i10b 1
+Z22 !s100 l1Lj2gaQDGncaXHG@m_KV1
+Z23 IObBF8g>0ak=aOo47gJgmc3
+Z24 VcfCAF6Od3iGghn@:Hna[N0
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vnegador_vlg_vec_tst
+!i10b 1
+Z25 !s100 UMjG`Me[W[6[HSF>AzhjP0
+Z26 I>5WT]Q>GS_be1CJ4WWne:1
+Z27 V[j@DIGbFDa]jBHM^FLUC_2
+R3
+R16
+R17
+R18
+Z28 L0 154
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

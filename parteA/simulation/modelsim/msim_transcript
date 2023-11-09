@@ -1,0 +1,640 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do combinacional_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/negador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity negador
+# -- Compiling architecture behavioral of negador
+# 
+# vcom -93 -work work {C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity combinacional
+# -- Compiling architecture behavior of combinacional
+# ** Warning: [4] C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  combinacional
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps combinacional 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.combinacional(behavior)
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Warning: (vsim-3035) Instantiation depth of '/combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# 
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3732) C:/Users/Tamara/Desktop/Tami/facultad/TyDD2/FPGA/parteA/combinacional.vhd(22): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           led
+#           sw2
+#           sw1
+# 
+#         Region: /combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut
+# ** Error: (vsim-3036) Instantiation depth of '/combinacional/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut/uut' is 75. Assuming recursive instantiation.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./combinacional_run_msim_rtl_vhdl.do PAUSED at line 12
+# Load canceled
+# Load canceled
