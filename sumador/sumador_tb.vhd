@@ -18,7 +18,9 @@ architecture behavior of sumador_tb is
 	signal in_a:std_logic :='0';
 	signal in_b:std_logic :='0';
 	signal in_cin:std_logic :='0';
-	signal in_cout:std_logic :='0';
+	signal clk:std_logic :='0';
+	signal o_f:std_logic;
+	signal o_cout:std_logic;
 	
 	constant clock_period:time:=20ns;
 	
@@ -41,14 +43,14 @@ architecture behavior of sumador_tb is
 		
 	stim_proc: process
 		begin
-			in_a <= '0'; in_b <= '0'; in_cin <= '0' wait for 30ns;
-			in_a <= '0'; in_b <= '0'; in_cin <= '1' wait for 30ns;
-			in_a <= '0'; in_b <= '1'; in_cin <= '0' wait for 30ns;
-			in_a <= '0'; in_b <= '1'; in_cin <= '1' wait for 30ns;
-			in_a <= '1'; in_b <= '0'; in_cin <= '0' wait for 30ns;
-			in_a <= '1'; in_b <= '0'; in_cin <= '1' wait for 30ns;
-			in_a <= '1'; in_b <= '1'; in_cin <= '0' wait for 30ns;
-			in_a <= '1'; in_b <= '1'; in_cin <= '1' wait for 30ns;
+			in_a <= '0'; in_b <= '0'; in_cin <= '0'; wait for 30ns;
+			in_a <= '0'; in_b <= '0'; in_cin <= '1'; wait for 30ns;
+			in_a <= '0'; in_b <= '1'; in_cin <= '0'; wait for 30ns;
+			in_a <= '0'; in_b <= '1'; in_cin <= '1'; wait for 30ns;
+			in_a <= '1'; in_b <= '0'; in_cin <= '0'; wait for 30ns;
+			in_a <= '1'; in_b <= '0'; in_cin <= '1'; wait for 30ns;
+			in_a <= '1'; in_b <= '1'; in_cin <= '0'; wait for 30ns;
+			in_a <= '1'; in_b <= '1'; in_cin <= '1'; wait for 30ns;
 			wait;
 		end process;
 		end;
