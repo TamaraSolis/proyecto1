@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Tamara\Desktop\Tami\facultad\TyDD2\FPGA\Parte C\simulation\qsim
+vsumador_completo
+Z1 Iizfok>;>TdSQ05<e]2kF63
+Z2 V:QdLoW0JZl@=kM0l0Ld_c3
+Z3 dC:\Users\Tamara\Desktop\Tami\facultad\TyDD2\FPGA\Parte C\simulation\qsim
+Z4 w1699921349
+Z5 8parte_C.vo
+Z6 Fparte_C.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 JaeTm4I@EBO:L=>W=kPK50
+!s85 0
+Z10 !s108 1699921352.475000
+Z11 !s107 parte_C.vo|
+Z12 !s90 -work|work|parte_C.vo|
+!s101 -O0
+vsumador_completo_vlg_check_tst
+!i10b 1
+!s100 iCb2m_zQ5QQ2ZA5D`<OQI2
+I^A1JgfY;JT5B74]nolh2K2
+VOe]=C6@hNli?^^kPUDb[h1
+R3
+Z13 w1699921348
+Z14 8parte_C.vt
+Z15 Fparte_C.vt
+L0 73
+R7
+r1
+!s85 0
+31
+Z16 !s108 1699921352.777000
+Z17 !s107 parte_C.vt|
+Z18 !s90 -work|work|parte_C.vt|
+!s101 -O0
+R8
+vsumador_completo_vlg_sample_tst
+!i10b 1
+!s100 4hlNVQ=cbK5:lJM10L]A=1
+IWDZJ:]z8GflkS5bUQOz5>2
+VI^UBZg?hHC81c8[@XeS>n3
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vsumador_completo_vlg_vec_tst
+!i10b 1
+!s100 ?[LA2LTRdNmJeEfReE0ZZ2
+IXJUH>0D3SM[[:fSLd[jH20
+VHlOb<KI2PN?8::mKGXccC1
+R3
+R13
+R14
+R15
+L0 330
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

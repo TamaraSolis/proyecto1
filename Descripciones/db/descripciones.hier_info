@@ -1,8 +1,0 @@
-|FFJK
-J => ~NO_FANOUT~
-K => ~NO_FANOUT~
-clock => ~NO_FANOUT~
-Q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-Qn <= <GND>
-
-

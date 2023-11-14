@@ -1,0 +1,95 @@
+$comment
+	File created using the following command:
+		vcd file parte_a.msim.vcd -direction
+$end
+$date
+	Mon Nov 13 19:56:37 2023
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module combinacional_vlg_vec_tst $end
+$var reg 1 ! sw1 $end
+$var reg 1 " sw2 $end
+$var wire 1 # led $end
+$var wire 1 $ sampler $end
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + led~output_o $end
+$var wire 1 , sw2~input_o $end
+$var wire 1 - sw1~input_o $end
+$var wire 1 . led~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+x#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+x+
+0,
+0-
+x.
+$end
+#4169
+0.
+#6810
+1+
+1#
+#300000
+1"
+0$
+#300786
+1,
+#540000
+1!
+0"
+1$
+#540766
+1-
+#540893
+0,
+#544753
+1.
+#545062
+0.
+#740000
+1"
+0$
+#740786
+1,
+#744685
+1.
+#747395
+0+
+0#
+#980000
+0!
+0"
+1$
+#980873
+0-
+#980893
+0,
+#985062
+0.
+#987703
+1+
+1#
+#1000000
